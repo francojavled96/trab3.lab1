@@ -169,7 +169,7 @@ public class Registro extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(this,"BIENVENIDO");
             } else {
 
-                JOptionPane.showMessageDialog(this,"datos invalidos");}
+                JOptionPane.showMessageDialog(this,"usuario o contraseña incorrectos");}
         } catch (NumberFormatException nf) {
 
             JOptionPane.showMessageDialog (this, "usuario o contraseña incorrectos");
